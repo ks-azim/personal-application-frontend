@@ -267,4 +267,95 @@ const serviceList = [
 .contact > div {
     width: 45%;
 }
+
+@media (max-width: 768px) {
+    .banner {
+        display: grid;
+        gap: 20px;
+    }
+
+    .banner > * {
+        justify-self: center;
+    }
+
+    .banner > img {
+        width: 80%;
+    }
+
+    .about {
+        margin-top: 50px;
+    }
+
+    .about > div > .about-content > * {
+        justify-self: center;
+        text-align: center;
+    }
+
+    .about > div > .about-content > img {
+        width: 90%;
+    }
+
+    .category > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .category {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        display: grid;
+        gap: 20px;
+    }
+
+    .banner > * {
+        justify-self: center;
+    }
+
+    .banner > img {
+        width: 80%;
+    }
+
+    .about {
+        margin-top: 50px;
+    }
+
+    .about > div > .about-content {
+        display: grid;
+    }
+
+    .about > div > .about-content > * {
+        justify-self: center;
+        text-align: center;
+    }
+
+    .about > div > .about-content > img {
+        width: 90%;
+    }
+
+    .category > div {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .category {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .contact {
+        height: 700px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .contact > div {
+        width: 100%;
+    }
+}
 </style>

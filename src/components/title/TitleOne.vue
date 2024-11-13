@@ -32,4 +32,14 @@ defineProps({
     font-size: 18px;
     font-style: italic;
 }
+
+@media (max-width: 480px) {
+    .title > h1 {
+        text-align: center;
+    }
+
+    .title > p {
+        text-align: center;
+    }
+}
 </style>
